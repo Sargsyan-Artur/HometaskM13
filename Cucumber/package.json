@@ -6,10 +6,7 @@
   "scripts": {
     "pretest": "node ./utils/delete_reports.js",
     "test": "protractor ./config/protractor_config.js & node_modules/.bin/cucumber-js --format=json | node_modules/.bin/cucumber-junit > output_JUnit.xml",
-    "postinstall": "webdriver-manager update",
-    "junit": "node_modules/.bin/cucumber-junit > output_JUnit.xml",
-    "convert": "type reports/report.json | ./node_modules/.bin/cucumber-junit > reports/cucumber_report.xml",
-    "unit": "./reports/report.json | ./node_modules/.bin/cucumber-junit > cucumber_report.xml"
+    "postinstall": "webdriver-manager update"
   },
   "keywords": [
     "BDD"

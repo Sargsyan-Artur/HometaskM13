@@ -8,7 +8,6 @@ const options = {
   outputXmlFile: path.join(__dirname, '../reports/Jreport.xml')
 }
 
-
 const reportOptions = {
   theme: 'bootstrap',
   jsonFile: path.join(__dirname, '../reports/report.json'),
